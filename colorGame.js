@@ -98,6 +98,5 @@ function randomColor() {
   var g = Math.floor(Math.random() * 256);
   var b = Math.floor(Math.random() * 256);
   //pick a "green" from 0 -255
-
   return "rgb(" + r + ", " + g + ", " + b + ")";
 }
